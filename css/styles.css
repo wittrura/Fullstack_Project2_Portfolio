@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('http://weloveiconfonts.com/api/?family=fontawesome');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #2d3c59;
+  font-weight: 300;
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+h3 {
+  color: #2d3c59;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+.brand-logo {
+  font-size: 5em;
+  color: #02b3e4;
+}
