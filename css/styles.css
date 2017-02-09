@@ -36,3 +36,17 @@ a {
   font-size: 5em;
   color: #02b3e4;
 }
+
+.img-app {
+  margin: 0 auto;
+}
+
+.text-title {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .text-title {
+      text-align: right;
+  }
+}
