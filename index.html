@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/picturefill.js"></script>
     <title>Jane Doette - Front-End Ninja</title>
   </head>
   <body>
@@ -30,28 +31,28 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><span class="fontawesome-underline"></span></a>
+            <!-- <a class="navbar-brand" href="#"><span class="fontawesome-underline"></span></a> -->
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
+              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About Jane</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">More Information <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Frontend / UI</a></li>
+                  <li><a href="#">Backend</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">Blog</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </li>
             </ul>
@@ -62,9 +63,9 @@
       <div class="row">
         <div class="col-md-12">
           <picture>
-            <source media="(min-width: 1201px)" srcset="http://placekitten.com/g/1200/600">
+            <source media="(min-width: 1201px)" srcset="images/kitten_nav2-1200_large_2x.jpeg 2x, images/kitten_nav2-1200_large_1x.jpeg 1x, ">
             <source media="" srcset="">
-            <img src="http://placekitten.com/g/1000/440" class="img-responsive img-app" alt="Close up of HTML code on a computer screen">
+            <img src="images/kitten_nav2-medium.jpeg" class="img-responsive img-app" alt="Close up of HTML code on a computer screen">
           </picture>
         </div>
       </div>
@@ -76,27 +77,27 @@
       <div class="row">
         <div class="col-md-4 text-center">
           <picture class="app-image">
-            <source media="(min-width: 992px)" srcset="https://placekitten.com/g/300/200">
-            <source media="(min-width: 540px)" srcset="https://placekitten.com/g/600/400">
-            <img src="https://placekitten.com/g/300/200" class="img-responsive img-app" alt="Udacity brand logo">
+            <source media="(min-width: 992px)" srcset="images/kitten_product-small.jpeg">
+            <source media="(min-width: 540px)" srcset="images/kitten_product-medium.jpeg">
+            <img src="images/kitten_product-small.jpeg" class="img-responsive img-app" alt="Udacity brand logo">
           </picture>
           <h3>APPIFY</h3>
           <p><a href="#">https://github.com/udacity/Appify/</a></p>
         </div>
         <div class="col-md-4 text-center">
           <picture class="app-image">
-            <source media="" srcset="">
-            <source media="" srcset="">
-            <img src="https://placekitten.com/g/300/200" class="img-responsive img-app" alt="Udacity brand logo">
+            <source media="(min-width: 992px)" srcset="images/kitten_product-small.jpeg">
+            <source media="(min-width: 540px)" srcset="images/kitten_product-medium.jpeg">
+            <img src="images/kitten_product-small.jpeg" class="img-responsive img-app" alt="Udacity brand logo">
           </picture>
           <h3>SUNFLOWER</h3>
           <p><a href="#">https://github.com/udacitySunflower/</a></p>
         </div>
         <div class="col-md-4 text-center">
           <picture>
-            <source media="" srcset="">
-            <source media="" srcset="">
-            <img src="https://placekitten.com/g/300/200" class="img-responsive img-app" alt="Udacity brand logo">
+            <source media="(min-width: 992px)" srcset="images/kitten_product-small.jpeg">
+            <source media="(min-width: 540px)" srcset="images/kitten_product-medium.jpeg">
+            <img src="images/kitten_product-small.jpeg" class="img-responsive img-app" alt="Udacity brand logo">
           </picture>
           <h3>BOKEH</h3>
           <p><a href="#">https://github.com/udacity/Bokeh</a></p>

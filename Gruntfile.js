@@ -23,16 +23,16 @@ module.exports = function(grunt) {
               width: 600
             },
             {
-            name: '800',
-            width: 800,
+            name: '1200',
+            width: 1200,
             suffix: '_large_1x',
             quality: 30
           },
             {
-            name: '1600',
-            width: 1600,
+            name: '1200',
+            width: 1200,
             suffix: '_large_2x',
-            quality: 30
+            quality: 75
           }]
         },
 
