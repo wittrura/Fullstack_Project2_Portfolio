@@ -24,7 +24,7 @@ p {
 }
 
 a {
-  color: inherit;
+  color: #2d3c49;
 }
 
 /* fontawesome */
@@ -43,12 +43,31 @@ a {
 
 .text-title {
   text-align: center;
-  border-color: #2d3c49;
-  border-width: 2px;
 }
 
 @media screen and (min-width: 768px){
   .text-title {
       text-align: right;
   }
+}
+
+/* custom styling for nav */
+.navbar {
+  border: none;
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a {
+  color: #2d3c49;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7d97ad;
 }
