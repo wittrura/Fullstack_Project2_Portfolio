@@ -43,6 +43,8 @@ a {
 
 .text-title {
   text-align: center;
+  border-color: #2d3c49;
+  border-width: 2px;
 }
 
 @media screen and (min-width: 768px){
